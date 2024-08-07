@@ -52,43 +52,43 @@ Vue.component("particle_component_1723046166", {
             </div>
         </div>
         <div class="container mx-auto px-4 py-8">
-            <form @submit.prevent="submitForm" class="bg-pink-100 shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
-                <h2 class="text-2xl font-bold mb-6 text-center text-pink-600">Cat Information Form</h2>
+            <form @submit.prevent="submitForm" class="bg-purple-900 shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4 border border-purple-500">
+                <h2 class="text-2xl font-bold mb-6 text-center text-purple-300">Cat Information Form</h2>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catName">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catName">
                         Cat's Name
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catName" type="text" v-model="catName" placeholder="Enter your cat's name" required>
+                    <input class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catName" type="text" v-model="catName" placeholder="Enter your cat's name" required>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catAge">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catAge">
                         Cat's Age
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catAge" type="number" v-model="catAge" placeholder="Enter your cat's age" required>
+                    <input class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catAge" type="number" v-model="catAge" placeholder="Enter your cat's age" required>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catBreed">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catBreed">
                         Cat's Breed
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catBreed" type="text" v-model="catBreed" placeholder="Enter your cat's breed" required>
+                    <input class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catBreed" type="text" v-model="catBreed" placeholder="Enter your cat's breed" required>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catColor">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catColor">
                         Cat's Color
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catColor" type="text" v-model="catColor" placeholder="Enter your cat's color" required>
+                    <input class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catColor" type="text" v-model="catColor" placeholder="Enter your cat's color" required>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catWeight">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catWeight">
                         Cat's Weight (in kg)
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catWeight" type="number" step="0.1" v-model="catWeight" placeholder="Enter your cat's weight" required>
+                    <input class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catWeight" type="number" step="0.1" v-model="catWeight" placeholder="Enter your cat's weight" required>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catDiet">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catDiet">
                         Cat's Diet
                     </label>
-                    <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catDiet" v-model="catDiet" required>
+                    <select class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catDiet" v-model="catDiet" required>
                         <option value="">Select diet type</option>
                         <option value="dry">Dry Food</option>
                         <option value="wet">Wet Food</option>
@@ -97,51 +97,51 @@ Vue.component("particle_component_1723046166", {
                     </select>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catVaccinated">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catVaccinated">
                         Is your cat vaccinated?
                     </label>
                     <div class="mt-2">
                         <label class="inline-flex items-center">
-                            <input type="radio" class="form-radio" name="catVaccinated" v-model="catVaccinated" value="yes" required>
-                            <span class="ml-2">Yes</span>
+                            <input type="radio" class="form-radio text-purple-500" name="catVaccinated" v-model="catVaccinated" value="yes" required>
+                            <span class="ml-2 text-purple-300">Yes</span>
                         </label>
                         <label class="inline-flex items-center ml-6">
-                            <input type="radio" class="form-radio" name="catVaccinated" v-model="catVaccinated" value="no">
-                            <span class="ml-2">No</span>
+                            <input type="radio" class="form-radio text-purple-500" name="catVaccinated" v-model="catVaccinated" value="no">
+                            <span class="ml-2 text-purple-300">No</span>
                         </label>
                     </div>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catPersonality">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catPersonality">
                         Cat's Personality Traits (select all that apply)
                     </label>
                     <div class="mt-2">
                         <label class="inline-flex items-center">
-                            <input type="checkbox" class="form-checkbox" v-model="catPersonality" value="playful">
-                            <span class="ml-2">Playful</span>
+                            <input type="checkbox" class="form-checkbox text-purple-500" v-model="catPersonality" value="playful">
+                            <span class="ml-2 text-purple-300">Playful</span>
                         </label>
                         <label class="inline-flex items-center ml-6">
-                            <input type="checkbox" class="form-checkbox" v-model="catPersonality" value="lazy">
-                            <span class="ml-2">Lazy</span>
+                            <input type="checkbox" class="form-checkbox text-purple-500" v-model="catPersonality" value="lazy">
+                            <span class="ml-2 text-purple-300">Lazy</span>
                         </label>
                         <label class="inline-flex items-center ml-6">
-                            <input type="checkbox" class="form-checkbox" v-model="catPersonality" value="affectionate">
-                            <span class="ml-2">Affectionate</span>
+                            <input type="checkbox" class="form-checkbox text-purple-500" v-model="catPersonality" value="affectionate">
+                            <span class="ml-2 text-purple-300">Affectionate</span>
                         </label>
                         <label class="inline-flex items-center ml-6">
-                            <input type="checkbox" class="form-checkbox" v-model="catPersonality" value="independent">
-                            <span class="ml-2">Independent</span>
+                            <input type="checkbox" class="form-checkbox text-purple-500" v-model="catPersonality" value="independent">
+                            <span class="ml-2 text-purple-300">Independent</span>
                         </label>
                     </div>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="catDescription">
+                    <label class="block text-purple-300 text-sm font-bold mb-2" for="catDescription">
                         Additional Information
                     </label>
-                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catDescription" v-model="catDescription" rows="4" placeholder="Enter any additional information about your cat"></textarea>
+                    <textarea class="shadow appearance-none border border-purple-500 rounded w-full py-2 px-3 text-white bg-purple-800 leading-tight focus:outline-none focus:shadow-outline" id="catDescription" v-model="catDescription" rows="4" placeholder="Enter any additional information about your cat"></textarea>
                 </div>
                 <div class="flex items-center justify-between">
-                    <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                         Submit
                     </button>
                 </div>
