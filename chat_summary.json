@@ -18,5 +18,11 @@
         "content": "Noted, we will create a comprehensive cat submission form.",
         "timestamp": "07082024155749",
         "message_id": "guest07082024155748"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Should the form include a photo upload option for the cat?\", \"option1\": \"Yes, include a photo upload option.\", \"option2\": \"No, photos are not necessary.\"}, {\"question 2\": \"Do you want the form to have customizable fields so the owner can add specific details about their cat not covered by the standard questions?\", \"option1\": \"Yes, include customizable fields for additional information.\", \"option2\": \"No, stick to the predefined set of questions.\"}], \"input_token_count\": 261, \"output_token_count\": 112, \"time_taken\": \"0:00:03.604967\"}",
+        "timestamp": "07082024155753",
+        "message_id": "guest07082024155748"
     }
 ]
