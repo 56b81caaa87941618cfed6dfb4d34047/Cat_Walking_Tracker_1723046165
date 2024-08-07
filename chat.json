@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer a specific shade of pink for the form, or should we choose a default gentle shade?\", \"option1\": \"Choose a specific shade (please specify)\", \"option2\": \"Use a default gentle shade of pink\"}, {\"question 2\": \"Should the pink color theme be applied to the entire form area or specific elements only (e.g., form background, input fields, submit button)?\", \"option1\": \"Apply to the entire form area\", \"option2\": \"Apply to specific elements only (please specify)\"}], \"input_token_count\": 306, \"output_token_count\": 124, \"time_taken\": \"0:00:04.697948\"}",
+        "message_id": "guest07082024155945",
+        "timestamp": "07082024155951",
+        "component_file_name": "particle_component_1723046166",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, I'll make it pink as requested.",
         "message_id": "guest07082024155945",
