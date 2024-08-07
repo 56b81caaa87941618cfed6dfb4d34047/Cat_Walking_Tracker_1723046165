@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Customizable cat profile creation form including fields for name, age, breed, and photo upload.\", \"checked\": true}, {\"feature\": \"Health tracker section for logging vaccinations, vet visits, and medical history.\", \"checked\": true}, {\"feature\": \"Behavior and preferences section for logging favorite toys, foods, and activities.\", \"checked\": true}, {\"feature\": \"Social features for sharing cat profiles with other users.\", \"checked\": false}, {\"feature\": \"Appointment scheduling system for walking and other services.\", \"checked\": false}, {\"feature\": \"Lost and found feature with GPS tracking for the safety of the cat.\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 135, \"time_taken\": \"0:00:10.900586\"}",
+        "message_id": "guest07082024155748",
+        "timestamp": "07082024155800",
+        "component_file_name": "particle_component_1723046166",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Should the form include a photo upload option for the cat?\", \"option1\": \"Yes, include a photo upload option.\", \"option2\": \"No, photos are not necessary.\"}, {\"question 2\": \"Do you want the form to have customizable fields so the owner can add specific details about their cat not covered by the standard questions?\", \"option1\": \"Yes, include customizable fields for additional information.\", \"option2\": \"No, stick to the predefined set of questions.\"}], \"input_token_count\": 261, \"output_token_count\": 112, \"time_taken\": \"0:00:03.604967\"}",
         "message_id": "guest07082024155748",
