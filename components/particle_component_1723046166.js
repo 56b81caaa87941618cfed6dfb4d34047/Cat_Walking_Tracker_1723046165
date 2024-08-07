@@ -52,8 +52,8 @@ Vue.component("particle_component_1723046166", {
             </div>
         </div>
         <div class="container mx-auto px-4 py-8">
-            <form @submit.prevent="submitForm" class="bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
-                <h2 class="text-2xl font-bold mb-6 text-center text-purple-600">Cat Information Form</h2>
+            <form @submit.prevent="submitForm" class="bg-pink-100 shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
+                <h2 class="text-2xl font-bold mb-6 text-center text-pink-600">Cat Information Form</h2>
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="catName">
                         Cat's Name
@@ -141,7 +141,7 @@ Vue.component("particle_component_1723046166", {
                     <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="catDescription" v-model="catDescription" rows="4" placeholder="Enter any additional information about your cat"></textarea>
                 </div>
                 <div class="flex items-center justify-between">
-                    <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                         Submit
                     </button>
                 </div>
