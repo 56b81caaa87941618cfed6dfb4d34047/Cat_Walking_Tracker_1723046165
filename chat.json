@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "\"Alright, I will replace the form with a message paragraph.\"",
+        "message_id": "guest07082024160740",
+        "timestamp": "07082024160740",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "when the submit button is clicked, replace the form with a paragraph of text explaining that the user should hear back from CatCo within an hour",
         "message_id": "guest07082024160740",
