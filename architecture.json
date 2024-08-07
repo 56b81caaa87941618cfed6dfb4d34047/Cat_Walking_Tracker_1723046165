@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "when the submit button is clicked, replace the form with a paragraph of text explaining that the user should hear back from CatCo within an hour"
+    },
+    {
+        "level": 1,
+        "task_description": "when the submit button is clicked, replace the form with a paragraph of text explaining that the user should hear back from CatCo within an hour"
     }
 ]
